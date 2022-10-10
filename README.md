@@ -1,3 +1,7 @@
 # This repository is for creating a website.
 
-# django
+# Django
+
+What is a Django?
+
+Django is a python web based framework.
