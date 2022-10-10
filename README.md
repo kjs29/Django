@@ -37,10 +37,10 @@ urlpatterns = [
     # always put / at the end of route
     
     # new URL(lawyer.com/profile) is added
-    path("",views.index),
+    path("",views.profile_main),
     
     # new URL(lawyer.com/profile/jin) is added
-    path("jin/", views.say_hello)
+    path("jin/", views.jin)
 ]
 ```
 2. Go to <em>views.py</em> in the `profile_main` folder, and decides what to show
