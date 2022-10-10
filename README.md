@@ -67,7 +67,7 @@ from django.urls import path, include
 urlpatterns = [
     path("admin/", admin.site.urls),
     
-    # playground means that people now can type homepageaddress/playground/ to go to the page and view it
+    # now a new URL lawyer.com/profile is added, and it will search related sub URLS in the file profile_main/urls.py
     path("profile/", include("profile_main.urls"))
 ]
 ```
