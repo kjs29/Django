@@ -35,7 +35,11 @@ from . import views
 
 urlpatterns = [
     # always put / at the end of route
-    # new URL(lawyer.come/profile/jin) is added
+    
+    # new URL(lawyer.com/profile) is added
+    path("",views.index),
+    
+    # new URL(lawyer.com/profile/jin) is added
     path("jin/", views.say_hello)
 ]
 ```
