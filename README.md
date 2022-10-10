@@ -21,9 +21,11 @@ Django is a python web based framework.
 Let's say I want to add a new url address to my website called `lawyer.com` like `lawyer.come/profile`
 
 First I need to create an app called `profile_main`
+
 ```
 django-admin startapp profile_main
 ```
+
 1. Create a `urls.py` in the app folder called `profile_main`
 
 <em>profile_main (app folder)/urls.py</em>
@@ -55,7 +57,7 @@ def profile_main(request):
 def jin(request):
     return HttpResponse("lawyer.com/profile/jin")
 ```
-4. Go to <em>urls.py</em> in the project folder (NOT an app folder), and add path to <em>urls.py</em> in `profile`(app folder)
+3. Go to <em>urls.py</em> in the project folder (NOT an app folder), and add path to <em>urls.py</em> in `profile`(app folder)
 ```py
 from django.contrib import admin
 
