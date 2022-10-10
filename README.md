@@ -22,11 +22,11 @@ Let's say I want to add a new url address to my website called `lawyer.com` like
 
 First I need to create an app called `profile_main`
 ```
-django-admin startapp profile
+django-admin startapp profile_main
 ```
 1. Create a `urls.py` in the app folder called `profile_main`
 
-<em>profile(app folder)/urls.py</em>
+<em>profile_main (app folder)/urls.py</em>
 ```py
 from django.urls import path
 
@@ -43,7 +43,19 @@ urlpatterns = [
     path("jin/", views.say_hello)
 ]
 ```
-2. Go to <em>urls.py</em> in the project folder (NOT an app folder), and add path to <em>urls.py</em> in `profile`(app folder)
+2. Go to <em>views.py</em> in the `profile_main` folder, and decides what to show
+<em>profile_main / views.py</em>
+```py
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here
+def profile_main(request):
+    return HttpResponse("lawyer.com/profile")
+def jin(request):
+    return HttpResponse("lawyer.com/profile/jin")
+```
+4. Go to <em>urls.py</em> in the project folder (NOT an app folder), and add path to <em>urls.py</em> in `profile`(app folder)
 ```py
 from django.contrib import admin
 
