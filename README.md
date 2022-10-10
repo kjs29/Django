@@ -20,11 +20,11 @@ Django is a python web based framework.
 
 Let's say I want to add a new url address to my website called `lawyer.com` like `lawyer.come/profile`
 
-First I need to create an app called `profile`
+First I need to create an app called `profile_main`
 ```
 django-admin startapp profile
 ```
-1. Create a `urls.py` in the app folder called `profile`
+1. Create a `urls.py` in the app folder called `profile_main`
 
 <em>profile(app folder)/urls.py</em>
 ```py
@@ -54,6 +54,6 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     
     # playground means that people now can type homepageaddress/playground/ to go to the page and view it
-    path("profile/", include("profile.urls"))
+    path("profile/", include("profile_main.urls"))
 ]
 ```
