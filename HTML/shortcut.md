@@ -4,9 +4,6 @@
 <!--This is a comment for html-->
 ```
 
-- `any tag name + >` = `<opening tag> <closing tag>`
-- `any tag name + tab` = `<opening tag> <closing tag>`
-
 Type ```body>``` or `body` + `tab`
 
 ```html
