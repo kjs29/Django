@@ -1,0 +1,31 @@
+# 10/21 Today I learned...
+
+
+# Adding url link to the template
+
+<em>home.html</em>
+```html
+<ul>
+  <li><a href = "{% url 'home' %}">click home</a></li>
+</ul>
+```
+
+This `home` is from app1/urls.py
+
+app1/urls.py
+
+```py
+from django.urls import path
+from . import views
+urlpatterns = [
+    path("",views.index, name="home")
+]
+```
+
+app1/views.py
+```py
+from django.shortcuts import render
+
+def index(request):
+    return render(request, "app1/homepage.html")
+```
