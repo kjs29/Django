@@ -6,6 +6,10 @@ What is a Django?
 
 Django is a python web based framework.
 
+# Django follows this MVT(MODEL VIEW TEMPLATE) structure.
+![image](https://user-images.githubusercontent.com/96529477/200011301-8ca87d2a-5a65-465c-b6c6-a8c21dca4eb1.png)
+Source - (https://youtu.be/PtQiiknWUcI)
+
 # Things I learned.
 
 ## - Every time I make an app, I need to go to settings.py, I need to register an app in the `INSTALLED_APPS`
