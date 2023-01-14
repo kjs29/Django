@@ -1,10 +1,16 @@
-# This repository is for creating a website.
+# This repository is for creating a website using Django
 
-# Django
+# What is a Django?
 
-What is a Django?
+Django is free and open source web application framework, written in Python.
 
-Django is a python web based framework.
+Frameworks exist to save you from having to reinvent the wheel.
+
+Source 
+
+- [DjangoGirls Tutorials](https://tutorial.djangogirls.org/en/django/)
+
+- [Django official document](https://docs.djangoproject.com/en/4.1/)
 
 # Django follows this MVT(MODEL VIEW TEMPLATE) structure.
 ![image](https://user-images.githubusercontent.com/96529477/200011301-8ca87d2a-5a65-465c-b6c6-a8c21dca4eb1.png)
