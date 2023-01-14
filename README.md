@@ -22,7 +22,7 @@ Source - (https://youtu.be/PtQiiknWUcI)
 ```
 ## - How to add a new url 
 
-Let's say I want to add a new url address to my website called `lawyer.com` like `lawyer.come/profile`
+Let's say I want to add a new url address to my website called `lawyer.com` like `lawyer.com/profile`
 
 First I need to create an app called `profile_main`
 
