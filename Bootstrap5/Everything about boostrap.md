@@ -69,3 +69,28 @@ We can type `footer.blockquote-footer`
 `.text-end` : right aligned text
 
 `.text-center` : center aligned text
+
+### Table
+
+### Cards
+
+```html
+<div class="card">
+    <div class="card-header">card-header</div>
+    <div class="card-body">card-body</div>
+    <div class="card-footer">card-footer</div>
+</div>
+```
+
+```html
+<div class="container mt-3" style="width:300px">
+    <div class="card">
+        <img src="" alt="picture goes here" class="card-image-top rounded-top">
+        <div class="card-body">
+            <h2 class="card-title"><a href="#">card-title</a></h2>
+            <div class="card-text">card-text</div>
+            <a href="" class="btn btn-primary mt-3">button click</a>
+        </div>
+    </div>
+</div>
+```
