@@ -22,6 +22,8 @@ We can insert this in html file to use Bootstrap.(Content Delivery Network)
 
 Difference between when there is a container and there isn't a container
 
+<img width="1291" alt="image" src="https://user-images.githubusercontent.com/96529477/213251746-f7a18479-8223-4ad0-b176-10beaf117798.png">
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -51,6 +53,7 @@ Difference between when there is a container and there isn't a container
 </body>
 </html>
 ```
+
 
 
 
