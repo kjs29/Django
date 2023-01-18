@@ -54,17 +54,17 @@ We can insert this in html file to use Bootstrap.(Content Delivery Network)
 </html>
 ```
 
-#### Difference between `.col-sm` and `.col`
+#### `.col-*` means `.col-xs-*`
 
-When it is 576px width or more, it looks like this
+First we need to figure out how the div looks like on a extra small viewport.
 
-<img width="1194" alt="image" src="https://user-images.githubusercontent.com/96529477/213255426-45f78954-0fec-41f4-a353-1b298c8f3dd2.png">
+For example, 
 
-when it goes below 576px, it looks like this
+```html
+<div class="col-12">div</div>
+```
 
-<img width="573" alt="image" src="https://user-images.githubusercontent.com/96529477/213255563-a3f2e00f-5227-47df-8c17-bf8847e26f35.png">
-
-`.col-sm` goes on stack, and `.col` still has its own form.
+means that we want `div` to take all 12 grids on extra small or higher number of screen.
 
 #### What does this mean?
 
