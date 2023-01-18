@@ -75,7 +75,7 @@ means that we want `div` to take all 12 grids on extra small or higher number of
 <div class="col-lg-3 col-md-6 col-sm-3 text-center bg-danger">div</div>
 ```
 
-It means, when div class is larger than 960px, its size takes up to 3/12, when it is larger than 768px, size is 6/12, and when it is larger than 576px, it is 3/12.
+It means, when div class is larger than 960px, its size takes up to 3/12 * container(960px), when it is larger than 768px, size is 6/12 * container(720px), and when it is larger than 576px, it is 3/12 * container(540px).
 
 The following code looks like this.
 
