@@ -66,6 +66,49 @@ when it goes below 576px, it looks like this
 
 `.col-sm` goes on stack, and `.col` still has its own form.
 
+#### What does this mean?
+
+```html
+<div class="col-lg-3 col-md-6 col-sm-3 text-center bg-primary">div</div>
+<div class="col-lg-3 col-md-6 col-sm-3 text-center bg-success">div</div>
+<div class="col-lg-3 col-md-6 col-sm-3 text-center bg-warning">div</div>
+<div class="col-lg-3 col-md-6 col-sm-3 text-center bg-danger">div</div>
+```
+
+It means, when div class is larger than 960px, its size takes up to 3/12, when it is larger than 768px, size is 6/12, and when it is larger than 576px, it is 3/12.
+
+The following code looks like this.
+
+<img width="1553" alt="Screenshot 2023-01-18 at 11 07 52 AM" src="https://user-images.githubusercontent.com/96529477/213260686-21b88933-538a-46e7-bbff-fdf516a2fcc5.png">
+<img width="1553" alt="Screenshot 2023-01-18 at 11 08 12 AM" src="https://user-images.githubusercontent.com/96529477/213260783-c4bd2c96-7d13-46de-8625-965700bbe07e.png">
+<img width="1553" alt="Screenshot 2023-01-18 at 11 09 23 AM" src="https://user-images.githubusercontent.com/96529477/213260821-99b77029-562a-41f7-a4d4-df0c10458af6.png">
+<img width="1553" alt="Screenshot 2023-01-18 at 11 09 35 AM" src="https://user-images.githubusercontent.com/96529477/213260846-820aa39a-6371-4535-bab1-ebb05363564f.png">
+
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>  
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-3 text-center bg-primary">div</div>
+            <div class="col-lg-3 col-md-6 col-sm-3 text-center bg-success">div</div>
+            <div class="col-lg-3 col-md-6 col-sm-3 text-center bg-warning">div</div>
+            <div class="col-lg-3 col-md-6 col-sm-3 text-center bg-danger">div</div>
+        </div>
+    </div>
+</body>
+</html>
+```
 
 
 
