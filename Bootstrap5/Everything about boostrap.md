@@ -20,7 +20,7 @@ We can insert this in html file to use Bootstrap.(Content Delivery Network)
 
 `.container` : Fixed width container, always centered in the screen
 
-Difference between when there is a container and there isn't a container
+#### Difference between when there is a container and there isn't a container
 
 <img width="1291" alt="image" src="https://user-images.githubusercontent.com/96529477/213251746-f7a18479-8223-4ad0-b176-10beaf117798.png">
 
@@ -53,6 +53,11 @@ Difference between when there is a container and there isn't a container
 </body>
 </html>
 ```
+
+#### Difference between `.col-sm` and `.col`
+
+When it is `.col-sm`
+
 
 
 
