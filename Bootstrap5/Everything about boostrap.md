@@ -56,8 +56,15 @@ We can insert this in html file to use Bootstrap.(Content Delivery Network)
 
 #### Difference between `.col-sm` and `.col`
 
-When it is `.col-sm`
+When it is 576px width or more, it looks like this
 
+<img width="1194" alt="image" src="https://user-images.githubusercontent.com/96529477/213255426-45f78954-0fec-41f4-a353-1b298c8f3dd2.png">
+
+when it goes below 576px, it looks like this
+
+<img width="573" alt="image" src="https://user-images.githubusercontent.com/96529477/213255563-a3f2e00f-5227-47df-8c17-bf8847e26f35.png">
+
+`.col-sm` goes on stack, and `.col` still has its own form.
 
 
 
