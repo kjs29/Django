@@ -54,7 +54,7 @@ We can insert this in html file to use Bootstrap.(Content Delivery Network)
 </html>
 ```
 
-#### `.col-*` means `.col-xs-*`
+#### `.col-*` means `.col-xs-*`, but we don't use `xs`.
 
 First we need to figure out how the div looks like on a extra small viewport.
 
@@ -121,6 +121,29 @@ This table shows when they become responsive.
 | .container-lg  |        100%      |    100%    |     100%    |    960px   |        1140px     |    1320px |
 | .container-xl  |        100%      |    100%    |     100%    |    100%    |        1140px     |    1320px |
 | .container-xxl |        100%      |    100%    |     100%    |    100%    |        100%       |    1320px |
+
+# Important!
+
+It is important to figure out about the responsiveness from the smaller view to larger view.
+
+1. Think about how it will look like on extra small view (<576px)
+2. Think about how it will look like on medium view(<768px)
+3. Think about how it will look like on large view(<992px)
+4. Think about how it will look like on extra large view(<1200px)
+5. Think about how it will look like on extra extra large view (<1400px)
+
+```html
+<div class="col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3">div</div>
+```
+
+This means 
+
+- 12/12 (100%) on 576px or larger view
+- 8/12 (75%) on 768px or larger view
+- 6/12 (50%) on 992px or larger view
+- 4/12 (30%) on 1200px or larger view
+- 3/12 (25%) on 1400px or larger view
+
 
 ### Padding
 
