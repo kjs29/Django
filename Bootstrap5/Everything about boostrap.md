@@ -144,6 +144,9 @@ This means
 - 4/12 (30%) on 1200px or larger view
 - 3/12 (25%) on 1400px or larger view
 
+`.col-auto` means it will size to the content inside.
+
+---
 
 ### Padding
 
