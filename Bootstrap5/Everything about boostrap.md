@@ -212,3 +212,48 @@ We can type `footer.blockquote-footer`
     </div>
 </div>
 ```
+
+
+# How to set multiple cols in one row
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row row-cols-2 row-cols-md-4 row-cols-xl-3 gy-1 gy-md-3 gy-lg-5">
+            <div class="col bg-danger">dd</div>
+            <div class="col bg-success">dd</div>
+            <div class="col bg-warning">dd</div>
+            <div class="col bg-danger">dd</div>
+            <div class="col bg-danger">dd</div>
+        </div>
+    </div>
+</body>
+</html>
+```
+
+`<div class="row row-cols-2 row-cols-md-4 row-cols-xl-3 gy-1 gy-md-3 gy-lg-5">` means,
+
+`row-cols-2` : When it is extra small or larger, have only two cols in that row.
+
+`row-cols-md-4` : When it is medium or larger, have only 4 cols in that row.
+
+`row-cols-xl-3` : When it is extra large or larger, have only 3 cols in that row.
+
+`gy-1` : When it is extra small or larger, have vertical gap of 1 
+
+`gy-md-3` : When it is medium or larger, have vertical gap of 3
+
+`gy-lg-5` : When it is large or larger, have vertical gap of 5
+
+
+# Offset
+
