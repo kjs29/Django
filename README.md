@@ -13,8 +13,11 @@ Source
 - [Django official document](https://docs.djangoproject.com/en/4.1/)
 
 # Django follows this MVT(MODEL VIEW TEMPLATE) structure.
-![image](https://user-images.githubusercontent.com/96529477/200011301-8ca87d2a-5a65-465c-b6c6-a8c21dca4eb1.png)
-Source - (https://youtu.be/PtQiiknWUcI)
+
+![basic-django](https://user-images.githubusercontent.com/96529477/214358944-bfc56162-8513-4173-acba-e8326cc81945.png)
+
+[Source : https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction)
+
 
 # Things I learned.
 
