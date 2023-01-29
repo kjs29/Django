@@ -1,6 +1,6 @@
 # This repository is for creating a website using Django
 
-# What is a Django?
+# What is Django?
 
 Django is free and open source web application framework, written in Python.
 
