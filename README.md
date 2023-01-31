@@ -26,7 +26,8 @@ Source
 
 .
 
-.
+## - Learn from [Official Django Documentation](https://docs.djangoproject.com/en/4.1/) and [Django Core Contributors](https://github.com/django/django/graphs/contributors) 
+
 ## - DRY is important but understanding core concepts of Django such as MVT architecture (I like to call it MVT since View is in the middle), URL routing, basic database management, should come first for beginners like me.
 
 ## - Learning Class based views without understanding how Django works is like building a castle on sand. Not a good solid way to start. I am a beginner. 
