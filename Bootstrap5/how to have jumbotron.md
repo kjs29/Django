@@ -5,7 +5,7 @@ How do I make this?
 
 
 <details>
-  <summary>How to make good habits</summary>
+  <summary>Code</summary>
   
   ```html
   <!doctype html>
